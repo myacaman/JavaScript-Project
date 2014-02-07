@@ -1,5 +1,4 @@
 
-
 var timeoutLength = 10000;
 
 startTimer();
@@ -22,7 +21,7 @@ startTimer();
 		myDiv1.appendChild(myDiv2);
 
 		var myP = document.createElement('p');
-		myP.innerText = 'You have been in this website for 10 seconds. Click Continue to browse our website; otherwise click Cancel and go to Google.';
+		myP.innerText = 'You have been in this website for 10 seconds. Click Continue to keep browsing our site; otherwise click Cancel and go to Google.';
 		myDiv1.appendChild(myP);
 
 		document.body.appendChild(myDiv);
