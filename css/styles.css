@@ -457,15 +457,18 @@ section.blue-bg h2 {
 	position: fixed;
 	z-index: 1000;
 	background-color: #F9F9F9;
+	border-style: solid;
+	border-color: #202020;
 	-webkit-box-shadow: 0 0 8px -3px #000000;
 	box-shadow: 0 0 8px -3px #000000;
 }
 
-.dialog .button {
-	background: #000000;
+.dialog button {
+	background: #202020;
 	color: #FFF;
 	display: inline-block;
 	padding: 5px 10px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .dialog .dialog-label {
